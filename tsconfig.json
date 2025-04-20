@@ -15,6 +15,7 @@
     "isolatedModules": true,
     "noEmit": false,
     "jsx": "react-jsx",
+    "jsxImportSource": "react",
     "outDir": "./dist",
     "paths": {
       "react": [ "./node_modules/@types/react" ]

@@ -127,8 +127,9 @@ export const AuthContextProvider: React.FC<AuthContextProviderProps> = ({ childr
       
       if (token) {
         try {
+          console.log('hi')
           // Validate token or fetch user info
-          const response = await fetch('https://api.your-backend.com/me', {
+          const response = await fetch('http://localhost:4009/me', {
             headers: {
               'Authorization': `Bearer ${token}`
             }
